@@ -24,3 +24,9 @@ console.log("Prix moyen TTC par produit :", prixmoyenTTC, "FCFA")
 console.log("Type de nom:", typeof nomClient)
 console.log("Type du prix : ", typeof prixunitaire)
 console.log("Type de la quantité :", typeof quantite)
+const remise = 10000
+const totalapresemise = montantfinal-remise
+console.log("")
+console.log("---- BONUS ----")
+console.log("Remise:", remise, "FCFA")
+console.log("Total après remise:", totalapresemise, "FCFA")
