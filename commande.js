@@ -9,3 +9,15 @@ const montantTVA = montantproduits*TVA /100
 const montantTTC = montantproduits+montantTVA
 const montantfinal =  montantTTC+fraislivraison
 const prixmoyenTTC = montantTTC/quantite
+console.log("====RECU DE COMMANDE====");
+console.log("Produit:", nomProduit)
+console.log("Prix unitaire:", prixunitaire)
+console.log("Quantité:", quantite)
+console.log("")
+console.log("Montant des produits:", montantproduits)
+console.log("TVA(18%):", montantTVA, "FCFA")
+console.log("Montant TTC:", montantTTC, "FCFA")
+console.log("Livraison:", fraislivraison, "FCFA")
+console.log("TOTAL A PAYER:", montantfinal, "FCFA")
+console.log("")
+console.log("Prix moyen TTC par produit :", prixmoyenTTC, "FCFA")
