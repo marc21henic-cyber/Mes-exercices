@@ -3,3 +3,6 @@ const prixcahier = 1500
 let qtecahier = 4
 const prixstylo = 500
 let qtestylo = 3
+const montantcahier = prixcahier*qtecahier
+const montantstylo = prixstylo*qtestylo
+const montanttotat = montantcahier+montantstylo
