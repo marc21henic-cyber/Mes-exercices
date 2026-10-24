@@ -16,3 +16,7 @@ console.log("Budget suffisant")
 } else{
     console.log("Budget insuffisant")
 }
+console.log("")
+for (let i = 1; i <= 5; i = 1+i) {
+   console.log("Achat numero", i)
+}
