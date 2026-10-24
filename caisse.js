@@ -11,3 +11,8 @@ console.log("Cahier :", montantcahier, "FCFA")
 console.log("Stylos :", montantstylo, "FCFA")
 console.log("Total :", montanttotat, "FCFA")
 console.log("Budget :", budgetclient, "FCFA")
+if ( montanttotat <= budgetclient){
+console.log("Budget suffisant")
+} else{
+    console.log("Budget insuffisant")
+}
